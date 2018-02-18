@@ -3,7 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsProgramFinderLibrary", "WindowsProgramFinderLibrary\WindowsProgramFinderLibrary.csproj", "{66C06871-DD79-42DB-9D78-61D1396FCA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsProgramFinderApplication", "WindowsProgramFinderApplication\WindowsProgramFinderApplication.csproj", "{A4D9652D-4551-4BC0-AD66-E6CBECFD9C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46254E8D-9FE2-4C46-B61D-25BF3E89F8EE}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C06871-DD79-42DB-9D78-61D1396FCA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C06871-DD79-42DB-9D78-61D1396FCA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C06871-DD79-42DB-9D78-61D1396FCA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C06871-DD79-42DB-9D78-61D1396FCA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D9652D-4551-4BC0-AD66-E6CBECFD9C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D9652D-4551-4BC0-AD66-E6CBECFD9C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D9652D-4551-4BC0-AD66-E6CBECFD9C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D9652D-4551-4BC0-AD66-E6CBECFD9C68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
